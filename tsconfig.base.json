@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@react-monorepo/header": ["libs/header/src/index.ts"],
+      "@react-monorepo/shared": ["libs/shared/ui-common/src/index.ts"],
+      "@react-monorepo/task-list": ["libs/task-list/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
